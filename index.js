@@ -4,6 +4,7 @@ const app = express();
 const port = 8081;
 
 // Serve static files from the React build directory
+//hello santhosh
 app.use(express.static(path.join(__dirname, 'dist')));
 
 // Handles any requests that don't match the ones above
